@@ -1,0 +1,591 @@
+t=2021-11-30T18:00:54+0800 lvl=warn msg="Disable transaction unindexing for archive node"
+t=2021-11-30T18:00:54+0800 lvl=info msg="Enabling recording of key preimages since archive mode is used"
+t=2021-11-30T18:00:54+0800 lvl=info msg="Set global gas cap" cap=25,000,000
+t=2021-11-30T18:00:54+0800 lvl=info msg="Allocated trie memory caches" clean="307.00 MiB" dirty="0.00 B"
+t=2021-11-30T18:00:54+0800 lvl=info msg="Allocated cache and file handles" database=/data/node/geth/chaindata cache="512.00 MiB" handles=524,288
+t=2021-11-30T18:00:54+0800 lvl=info msg="Opened ancient database"          database=/data/node/geth/chaindata/ancient readonly=false
+t=2021-11-30T18:00:54+0800 lvl=info msg="Initialised chain configuration"  config="{ChainID: 820013 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: 0, Niels: 0, MirrorSync: <nil>, Bruno: <nil>, Berlin: <nil>, YOLO v3: <nil>, Engine: parlia}"
+t=2021-11-30T18:00:54+0800 lvl=info msg="cur TrustTask start()!,crustConfig is:&{4 3   http://192.168.1.221:46657/tri_block_validators http://192.168.1.221:46657/tri_block_info }"
+t=2021-11-30T18:00:54+0800 lvl=info msg="cur  Init()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:00:54+0800 lvl=info msg="Initialising Ethereum protocol"   network=820,013 dbversion=8
+t=2021-11-30T18:00:54+0800 lvl=info msg="Loaded most recent local header"  number=0 hash=0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169 td=256 age=52y8mo1d
+t=2021-11-30T18:00:54+0800 lvl=info msg="Loaded most recent local full block" number=0 hash=0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169 td=256 age=52y8mo1d
+t=2021-11-30T18:00:54+0800 lvl=info msg="Loaded most recent local fast block" number=0 hash=0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169 td=256 age=52y8mo1d
+t=2021-11-30T18:00:54+0800 lvl=info msg="Snapshot loaded"                     diskRoot=0x08ede791122850afade58db135e59b6ea86272600ae3e2ee963da901487ffb99 root=0x08ede791122850afade58db135e59b6ea86272600ae3e2ee963da901487ffb99
+t=2021-11-30T18:00:54+0800 lvl=warn msg="Sanitizing invalid gasprice oracle price cap" provided=<nil> updated=500,000,000,000
+t=2021-11-30T18:00:54+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T15:49:05+0800 age=2h11m49s
+t=2021-11-30T18:00:54+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T16:30:32+0800 age=1h30m22s
+t=2021-11-30T18:00:54+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T16:36:12+0800 age=1h24m42s
+t=2021-11-30T18:00:54+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T17:43:57+0800 age=16m57s
+t=2021-11-30T18:00:54+0800 lvl=info msg="Starting peer-to-peer node"          instance=Geth/v1.1.4/linux-amd64/go1.14.1
+t=2021-11-30T18:00:54+0800 lvl=info msg="New local node record"               seq=7 id=84cda633d8519ca37ad697a436cd35121e7eb346a0fa16e49a5e8d34faeddcf3 ip=127.0.0.1 udp=30303 tcp=30303
+t=2021-11-30T18:00:54+0800 lvl=info msg="IPC endpoint opened"                 url=/data/node/geth.ipc
+t=2021-11-30T18:00:54+0800 lvl=info msg="Started P2P networking"              self=enode://c7a1628c92858a4df093d320bdba53611f19107d44e1d9f06341551f2edef674748285360b284e88238f1bfc2ecb37c84fca9ab04fbd55a119c9a06735b573ea@127.0.0.1:30303
+t=2021-11-30T18:00:54+0800 lvl=info msg="HTTP server started"                 endpoint=[::]:8545 prefix= cors= vhosts=*
+t=2021-11-30T18:00:58+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:00:58+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:00:58+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:00:58+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:00:58+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:00:58+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:02+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:02+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:02+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:02+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:02+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:02+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:04+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=2 static=0
+t=2021-11-30T18:01:06+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:06+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:06+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:06+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:06+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:06+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:10+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:10+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:10+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:10+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:10+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:10+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:14+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:14+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:14+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:14+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:14+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:14+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:14+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:01:18+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:18+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:18+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:18+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:18+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:18+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:19+0800 lvl=info msg="Etherbase automatically configured"  address=0x38580eFe497b22ACc29783273e725a2a4F2AEEA4
+t=2021-11-30T18:01:22+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:22+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:22+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:22+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:22+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:22+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:24+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:01:26+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:26+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:26+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:26+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:26+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:26+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:30+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:30+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:30+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:30+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:30+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:30+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:34+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:34+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:34+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:34+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:34+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:34+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:34+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:01:38+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:38+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:38+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:38+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:38+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:38+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:42+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:42+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:42+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:42+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:42+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:42+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:44+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:01:46+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:01:46+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:01:46+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:01:46+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:01:46+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:01:46+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:01:50+0800 lvl=info msg="Transaction pool price threshold updated" price=1,000,000,000
+t=2021-11-30T18:50:05+0800 lvl=warn msg="Disable transaction unindexing for archive node"
+t=2021-11-30T18:50:05+0800 lvl=info msg="Enabling recording of key preimages since archive mode is used"
+t=2021-11-30T18:50:05+0800 lvl=info msg="Set global gas cap" cap=25,000,000
+t=2021-11-30T18:50:05+0800 lvl=info msg="Allocated trie memory caches" clean="307.00 MiB" dirty="0.00 B"
+t=2021-11-30T18:50:05+0800 lvl=info msg="Allocated cache and file handles" database=/data/node/geth/chaindata cache="512.00 MiB" handles=524,288
+t=2021-11-30T18:50:05+0800 lvl=info msg="Opened ancient database"          database=/data/node/geth/chaindata/ancient readonly=false
+t=2021-11-30T18:50:05+0800 lvl=info msg="Initialised chain configuration"  config="{ChainID: 820013 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: 0, Niels: 0, MirrorSync: <nil>, Bruno: <nil>, Berlin: <nil>, YOLO v3: <nil>, Engine: parlia}"
+t=2021-11-30T18:50:05+0800 lvl=info msg="cur TrustTask start()!,crustConfig is:&{4 3   http://192.168.1.221:46657/tri_block_validators http://192.168.1.221:46657/tri_block_info }"
+t=2021-11-30T18:50:05+0800 lvl=info msg="cur  Init()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:05+0800 lvl=info msg="Initialising Ethereum protocol"   network=820,013 dbversion=8
+t=2021-11-30T18:50:05+0800 lvl=info msg="Loaded most recent local header"  number=0 hash=0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169 td=256 age=52y8mo1d
+t=2021-11-30T18:50:05+0800 lvl=info msg="Loaded most recent local full block" number=0 hash=0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169 td=256 age=52y8mo1d
+t=2021-11-30T18:50:05+0800 lvl=info msg="Loaded most recent local fast block" number=0 hash=0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169 td=256 age=52y8mo1d
+t=2021-11-30T18:50:05+0800 lvl=info msg="Snapshot loaded"                     diskRoot=0x08ede791122850afade58db135e59b6ea86272600ae3e2ee963da901487ffb99 root=0x08ede791122850afade58db135e59b6ea86272600ae3e2ee963da901487ffb99
+t=2021-11-30T18:50:05+0800 lvl=warn msg="Sanitizing invalid gasprice oracle price cap" provided=<nil> updated=500,000,000,000
+t=2021-11-30T18:50:05+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T15:49:05+0800 age=3h1m
+t=2021-11-30T18:50:05+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T16:30:32+0800 age=2h19m33s
+t=2021-11-30T18:50:05+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T16:36:12+0800 age=2h13m53s
+t=2021-11-30T18:50:05+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T17:43:57+0800 age=1h6m8s
+t=2021-11-30T18:50:05+0800 lvl=warn msg="Unclean shutdown detected"           booted=2021-11-30T18:00:54+0800 age=49m11s
+t=2021-11-30T18:50:05+0800 lvl=info msg="Starting peer-to-peer node"          instance=Geth/v1.1.4/linux-amd64/go1.14.1
+t=2021-11-30T18:50:05+0800 lvl=info msg="New local node record"               seq=8 id=84cda633d8519ca37ad697a436cd35121e7eb346a0fa16e49a5e8d34faeddcf3 ip=127.0.0.1 udp=30303 tcp=30303
+t=2021-11-30T18:50:05+0800 lvl=info msg="IPC endpoint opened"                 url=/data/node/geth.ipc
+t=2021-11-30T18:50:05+0800 lvl=info msg="Started P2P networking"              self=enode://c7a1628c92858a4df093d320bdba53611f19107d44e1d9f06341551f2edef674748285360b284e88238f1bfc2ecb37c84fca9ab04fbd55a119c9a06735b573ea@127.0.0.1:30303
+t=2021-11-30T18:50:05+0800 lvl=info msg="HTTP server started"                 endpoint=[::]:8545 prefix= cors= vhosts=*
+t=2021-11-30T18:50:09+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:13+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:15+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=2 static=0
+t=2021-11-30T18:50:17+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:21+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:25+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:25+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:50:29+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:33+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:35+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:50:37+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:41+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:45+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:45+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:50:49+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:53+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:50:55+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:50:57+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:50:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:50:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:50:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:50:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:50:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:01+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:05+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:05+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:51:09+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:13+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:15+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:51:17+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:21+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:25+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:25+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:51:29+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:33+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:35+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:51:37+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:41+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:45+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:45+0800 lvl=info msg="Looking for peers"                   peercount=1 tried=1 static=0
+t=2021-11-30T18:51:49+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:53+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:51:55+0800 lvl=info msg="Looking for peers"                   peercount=1 tried=1 static=0
+t=2021-11-30T18:51:57+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:51:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:51:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:51:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:51:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:51:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:01+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:05+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:06+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=2 static=0
+t=2021-11-30T18:52:09+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:13+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:16+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:52:17+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:21+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:25+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:26+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:52:29+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:33+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:36+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=2 static=0
+t=2021-11-30T18:52:37+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:41+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:45+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:46+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:52:49+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:53+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:52:56+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:52:57+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:52:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:52:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:52:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:52:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:52:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:01+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:05+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:07+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:53:09+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:13+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:17+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:18+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=2 static=0
+t=2021-11-30T18:53:21+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:25+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:28+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:53:29+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:33+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:37+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:39+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:53:41+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:41+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:45+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:45+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:49+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:49+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:50+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=1 static=0
+t=2021-11-30T18:53:53+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:53+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:53:57+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:53:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:53:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:53:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:53:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:53:57+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:00+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:54:01+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:01+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:05+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:05+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:09+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:09+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:10+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:54:13+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:13+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:15+0800 lvl=info msg="Etherbase automatically configured"  address=0x38580eFe497b22ACc29783273e725a2a4F2AEEA4
+t=2021-11-30T18:54:17+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:17+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:20+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:54:21+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:21+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:25+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:25+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:29+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:29+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:30+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:54:33+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:33+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:37+0800 lvl=info msg="cur  TrustTask' RequestTrustInfoInit()!,crypto.PubKey is RegisterInterface!"
+t=2021-11-30T18:54:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()-watching1!" trustNum=4 trustNum=4
+t=2021-11-30T18:54:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=EB9BED0FF09DA80EE9ABC685FA3FC691EBA3EA46F742EDE327039388998F35EB score=300
+t=2021-11-30T18:54:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=FD414BAF9A3BE12E2B550581D6A4C40D430F1E615A3D134C704732CB2DE60EB6 score=300
+t=2021-11-30T18:54:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=15C7A42EB6598E08B6A1051E8908DB85ED0054860D06EA11C6DC7643D24FA90B score=300
+t=2021-11-30T18:54:37+0800 lvl=info msg="Succ Invoke RequestTrustInfo()' get getValidators!" trustpubkey=276798817357C1D48A81A0B12C3B4CF8BA702FBF2547F4AEB4C9366F53593897 score=300
+t=2021-11-30T18:54:40+0800 lvl=info msg="Looking for peers"                   peercount=2 tried=0 static=0
+t=2021-11-30T18:54:40+0800 lvl=info msg="Transaction pool price threshold updated" price=1,000,000,000
+t=2021-11-30T18:54:40+0800 lvl=info msg="In worker' commitNewWork(),cur checking0,to exec w.engine.Prepare()!" w.extra="[216 131 1 1 4 132 103 101 116 104 136 103 111 49 46 49 52 46 49 133 108 105 110 117 120]" w.isRunning()=true
+t=2021-11-30T18:54:40+0800 lvl=info msg="In worker' commitNewWork(),cur checking1,to exec w.engine.Prepare()!" header.Extra="[216 131 1 1 4 132 103 101 116 104 136 103 111 49 46 49 52 46 49 133 108 105 110 117 120]" header.Number=1
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parli' begin snapshot(),cur checking1,to checkpoint.Extra!" cur number=0
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parli'  snapshot(),cur checking1,to checkpoint.Extra!" checkpoint.Extra=[] len checkpoint.Extra=0
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' snapshot() checking1,cur number is:0,to invoke ParseValidators(),params Extra info is:8X\x0e\xfeI{\"\xac\u0097\x83'>rZ*O*\xee\xa4;ng\xc4\xc87\xdb\x05J\xc7\x19\x89/\x87\x12d\xe1El\xdf\n\xf4\x83\x84\xf2\xa5\xe6\xafE\u007f\xaeń\xdcU\x93Э7\x0e"
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' snapshot() checking1!to invoke ParseValidators(),params Extra info" curnumber=0 params Extra info is="[56 88 14 254 73 123 34 172 194 151 131 39 62 114 90 42 79 42 238 164 59 110 103 196 200 55 219 5 74 199 25 137 47 135 18 100 225 69 108 223 10 244 131 132 242 165 230 175 69 127 174 197 132 220 85 147 208 173 55 14]"
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' after ParseValidators(),get validator's address is:" idx=0 address=0x38580eFe497b22ACc29783273e725a2a4F2AEEA4
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' after ParseValidators(),get validator's address is:" idx=1 address=0x3b6E67C4c837db054AC719892f871264E1456cDf
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' after ParseValidators(),get validator's address is:" idx=2 address=0x0AF48384F2A5E6Af457FaEc584Dc5593d0Ad370e
+t=2021-11-30T18:54:40+0800 lvl=info msg="Stored checkpoint snapshot to disk"  number=0 hash=0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' Prepare(), checking3, after snapshot()!" number=1 p.config.Epoch=200
+t=2021-11-30T18:54:40+0800 lvl=info msg="In commitNewWork()' checking004==before to invoke w.commit()!" noempty=true
+t=2021-11-30T18:54:40+0800 lvl=info msg="In worker' commit(),cur checking02,to exec w.engine.FinalizeAndAssemble()!" w.current.txs=[] w.current.header="&{ParentHash:0xc29d0d801f1610d5a4878d06d2ff852476e35c45606dd80382a1f3664d737169 UncleHash:0x0000000000000000000000000000000000000000000000000000000000000000 Coinbase:0x38580eFe497b22ACc29783273e725a2a4F2AEEA4 Root:0x0000000000000000000000000000000000000000000000000000000000000000 TxHash:0x0000000000000000000000000000000000000000000000000000000000000000 ReceiptHash:0x0000000000000000000000000000000000000000000000000000000000000000 Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+2 Number:+1 GasLimit:133693441 GasUsed:0 Time:1638269680 Extra:[216 131 1 1 4 132 103 101 116 104 136 103 111 49 46 49 52 46 49 133 108 105 110 117 120 0 0 0 194 25 254 52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x0000000000000000000000000000000000000000000000000000000000000000 Nonce:[0 0 0 0 0 0 0 0]}"
+t=2021-11-30T18:54:40+0800 lvl=info msg="Commit new mining work"              number=1 sealhash=0x9ad44c70884ac1e895bd6349d34a2e6d46ab265f3e258f88e75bf34e92d1934d uncles=0 txs=0 gas=0 elapsed=2.537ms
+t=2021-11-30T18:54:40+0800 lvl=info msg="In worker' taskLoop()' checking005 to w.engine.Seal()!" task.block="[216 131 1 1 4 132 103 101 116 104 136 103 111 49 46 49 52 46 49 133 108 105 110 117 120 0 0 0 194 25 254 52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]" block.NumberU64()=1
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' Seal(). to exec p.snapshot()!" number=1
+t=2021-11-30T18:54:40+0800 lvl=info msg="In Parlia' Seal(). to exec p.snapshot()!" number=1 get snap.Validators is:="map[0x0AF48384F2A5E6Af457FaEc584Dc5593d0Ad370e:{} 0x38580eFe497b22ACc29783273e725a2a4F2AEEA4:{} 0x3b6E67C4c837db054AC719892f871264E1456cDf:{}]"
+t=2021-11-30T18:54:40+0800 lvl=info msg="cur bsc address is:0x38580eFe497b22ACc29783273e725a2a4F2AEEA4 get turn tm address no"
+t=2021-11-30T18:54:40+0800 lvl=info msg="curTrustTask. to GetBSCMapAddress() failed!" bscaddress=0x38580eFe497b22ACc29783273e725a2a4F2AEEA4
+t=2021-11-30T18:54:40+0800 lvl=info msg="Sealing block with"                  number=1 delay=-494.179139ms headerDifficulty=2 val=0x38580eFe497b22ACc29783273e725a2a4F2AEEA4

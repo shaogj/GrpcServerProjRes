@@ -1,0 +1,51 @@
+   64  {"TIME":"2021-12-10 18:54:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"./tendermint 
+   82  {"TIME":"2021-12-10 18:54:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ls tendermint
+   83  {"TIME":"2021-12-10 18:54:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"scp tendermint root@192.168.1.226:/home
+   88  {"TIME":"2021-12-10 18:54:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"find / -name "tendermint" -print
+   91  {"TIME":"2021-12-10 18:54:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"./tendermint
+   92  {"TIME":"2021-12-10 18:54:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"tendermint
+  142  {"TIME":"2021-11-25 10:20:13","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl status tendermint.service 
+  143  {"TIME":"2021-11-25 10:20:18","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl stop tendermint.service 
+  145  {"TIME":"2021-11-25 12:18:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"cd /trias/.ethermint/tendermint/
+  153  {"TIME":"2021-11-25 12:19:16","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"tendermint unsafe_reset_all --home /trias/.ethermint/tendermint/
+  155  {"TIME":"2021-11-25 12:19:34","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"su ubuntu -l -c "triascode_app -addr tcp://0.0.0.0:26658 -persist /trias/.ethermint/tendermint/data"
+  157  {"TIME":"2021-11-25 12:20:41","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"su ubuntu -l -c "tendermint --home /trias/.ethermint/tendermint node --log_level *:info"
+  158  {"TIME":"2021-11-25 12:20:51","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"su ubuntu -l -c "triascode_app -addr tcp://0.0.0.0:26658 -persist /trias/.ethermint/tendermint/data"
+  176  {"TIME":"2021-11-25 17:42:38","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  178  {"TIME":"2021-11-26 11:21:20","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"vim /lib/systemd/system/tendermint.service 
+  180  {"TIME":"2021-11-26 11:23:26","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl restart tendermint
+  193  {"TIME":"2021-11-26 16:04:17","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"journalctl  -u tendermint.service -f
+  210  {"TIME":"2021-11-26 15:19:14","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"cd tendermint/
+  218  {"TIME":"2021-11-26 15:55:53","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl restart tendermint.service
+  223  {"TIME":"2021-11-26 16:04:40","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl stop tendermint.service
+  224  {"TIME":"2021-11-26 16:04:57","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl start tendermint.service
+  225  {"TIME":"2021-11-26 16:16:29","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl stop tendermint.service
+  227  {"TIME":"2021-11-26 17:08:34","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  228  {"TIME":"2021-11-26 17:14:38","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"systemctl stop tendermint
+  230  {"TIME":"2021-11-27 12:31:16","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"cd /trias/.ethermint/tendermint/
+  246  {"TIME":"2021-11-27 12:32:47","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"tendermint init --home ./test2/
+  248  {"TIME":"2021-11-27 12:33:39","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true    --p2p.persistent_peers="cd69c30e85a4dc13a2f06ea7d075c3b9264e11fa@192.168.1.222:26656" > tm.log 2>&1 &
+  291  {"TIME":"2021-12-01 11:37:53","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  293  {"TIME":"2021-12-01 11:38:54","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  295  {"TIME":"2021-12-01 12:22:01","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  296  {"TIME":"2021-12-01 12:22:05","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=cd69c30e85a4dc13a2f06ea7d075c3b9264e11fa@192.168.1.222:26656 > /trias/.ethermint/tm.log 2>&1 &
+  298  {"TIME":"2021-12-01 13:04:10","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  301  {"TIME":"2021-12-01 13:05:27","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=cd69c30e85a4dc13a2f06ea7d075c3b9264e11fa@192.168.1.222:26656 > tm.log 2>&1 &
+  308  {"TIME":"2021-12-02 16:07:49","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  311  {"TIME":"2021-12-02 16:08:36","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656 > tm.log 2>&1 &
+  313  {"TIME":"2021-12-02 19:25:13","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ll /usr/local/bin/tendermint 
+  342  {"TIME":"2021-12-07 15:24:04","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  344  {"TIME":"2021-12-07 15:24:18","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  346  {"TIME":"2021-12-07 15:25:16","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656 > tm.log 2>&1 &
+  349  {"TIME":"2021-12-07 15:26:00","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  353  {"TIME":"2021-12-07 15:29:32","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656 > tm.log 2>&1 &
+  358  {"TIME":"2021-12-07 15:33:29","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656 > tm.log 2>&1 &
+  361  {"TIME":"2021-12-07 15:50:00","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"tendermint --help
+  365  {"TIME":"2021-12-07 17:26:40","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  367  {"TIME":"2021-12-07 17:27:28","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656 --p2p.seeds="1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656" > /trias/.ethermint/tm.log 2>&1 &
+  371  {"TIME":"2021-12-07 17:28:18","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656 --p2p.seeds="1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656" > /trias/.ethermint/tm.log 2>&1 &
+  378  {"TIME":"2021-12-07 20:46:07","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --consensus.create_empty_blocks=true --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656 --p2p.seeds="1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656" > /trias/.ethermint/tm.log 2>&1 &
+  416  {"TIME":"2021-12-09 19:19:29","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"ps aux | grep tendermint
+  419  {"TIME":"2021-12-09 19:55:23","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"nohup tendermint --home /trias/.ethermint/test2 node --log_level *:debug --proxy_app=persistent_kvstore --p2p.persistent_peers=1a18fad1c83005191e7f05162e308f59131242ab@192.168.1.221:26656  --consensus.create_empty_blocks=true > /trias/.ethermint/tm.log 2>&1 &
+  435  {"TIME":"2021-12-10 18:55:51","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"history | grep tendermint
+  440  {"TIME":"2021-12-10 18:56:47","HOSTNAME":"trias-bsc-004","LI":"10.2.2.195","LU":"root","NU":"root","CMD":"history | grep tendermint >> tendermint1209cmdinfo
